@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Studio | Branding, Web Design & Digital Content</title>
+    <meta name="description" content="We design visual identities, Webflow websites, and digital content that help your business stand out from day one. Get a professional brand and website." />
+    <meta name="author" content="Creative Studio" />
+    <meta name="keywords" content="branding, web design, webflow, digital content, creative agency, brand identity, website design" />
+    <link rel="canonical" href="https://studio.com" />
+
+    <meta property="og:title" content="Creative Studio | Branding, Web Design & Digital Content" />
+    <meta property="og:description" content="We design visual identities, Webflow websites, and digital content that help your business stand out from day one." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Creative Studio | Branding, Web Design & Digital Content" />
+    <meta name="twitter:description" content="We design visual identities, Webflow websites, and digital content that help your business stand out from day one." />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-background">
+      <!-- Header -->
+      <header class="header">
+        <div class="container-narrow header-container">
+          <div class="header-inner">
+            <a href="#" class="logo-link">
+              Studio<span class="text-primary">.</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+              <a href="#services" class="nav-link">Services</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+              <a href="#process" class="nav-link">Process</a>
+              <a href="#contact" class="nav-link">Contact</a>
+              <a href="#contact" class="btn-primary btn-sm">Get Started</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+              <svg class="menu-icon" id="menuIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+              <svg class="close-icon" id="closeIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <line x1="18" x2="6" y1="6" y2="18"></line>
+                <line x1="6" x2="18" y1="6" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Mobile Navigation -->
+          <nav class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+              <a href="#services" class="mobile-nav-link">Services</a>
+              <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+              <a href="#process" class="mobile-nav-link">Process</a>
+              <a href="#contact" class="mobile-nav-link">Contact</a>
+              <a href="#contact" class="btn-primary mobile-cta">Get Started</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero -->
+        <section class="hero">
+          <div class="container-narrow">
+            <div class="hero-content">
+              <h1 class="heading-xl fade-in-up">
+                Build a brand and website that looks <span class="text-primary">truly professional.</span>
+              </h1>
+              <p class="text-body hero-description fade-in-up stagger-1">
+                We design visual identities, Webflow websites, and digital content 
+                that help your business stand out from day one.
+              </p>
+              <div class="hero-buttons fade-in-up stagger-2">
+                <a href="#contact" class="btn-primary">
+                  Get Started
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.5rem;">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#portfolio" class="btn-secondary">View Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="section-padding bg-card">
+          <div class="container-narrow">
+            <h2 class="heading-lg text-center mb-4">Why work with us?</h2>
+            <p class="text-body text-center max-w-2xl mx-auto mb-16">
+              We combine strategy, design, and technology to create brands that connect.
+            </p>
+            
+            <div class="benefits-grid">
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                    <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                    <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                    <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path>
+                  </svg>
+                </div>
+                <h3 class="heading-md mb-3">Clear Brand Identity</h3>
+                <p class="text-body">Clear and modern brand identity that elevates your business and builds trust with customers.</p>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </div>
+                <h3 class="heading-md mb-3">Fast Webflow Sites</h3>
+                <p class="text-body">Fast, responsive Webflow websites you can edit without coding—launch in weeks, not months.</p>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <h3 class="heading-md mb-3">Ready-to-Use Content</h3>
+                <p class="text-body">Visual content ready for social media, presentations, and sales materials from day one.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="section-padding">
+          <div class="container-narrow">
+            <h2 class="heading-lg mb-4">Selected Work</h2>
+            <p class="text-body max-w-2xl mb-12">
+              A curated collection of branding, web design, and digital content projects.
+            </p>
+
+            <!-- Featured Video/Image -->
+            <div class="portfolio-featured">
+              <div class="portfolio-featured-overlay"></div>
+              <div class="portfolio-featured-center">
+                <div class="play-button">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 2px;">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </div>
+              <div class="portfolio-featured-info">
+                <p class="portfolio-featured-title">Watch our showreel</p>
+                <p class="portfolio-featured-subtitle">2 min • Projects from 2023-2024</p>
+              </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+              <a href="#" class="project-card">
+                <div class="project-image project-image-1"></div>
+                <h3 class="project-title">Hotel Alpino</h3>
+                <p class="project-type">Branding + Web Design</p>
+              </a>
+              <a href="#" class="project-card">
+                <div class="project-image project-image-2"></div>
+                <h3 class="project-title">Local Bakery</h3>
+                <p class="project-type">Brand Refresh + Webflow</p>
+              </a>
+              <a href="#" class="project-card">
+                <div class="project-image project-image-3"></div>
+                <h3 class="project-title">Outdoor Gear Shop</h3>
+                <p class="project-type">Identity + Landing Page</p>
+              </a>
+              <a href="#" class="project-card">
+                <div class="project-image project-image-4"></div>
+                <h3 class="project-title">Wellness Studio</h3>
+                <p class="project-type">Webflow + Social Kit</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section-padding bg-card">
+          <div class="container-narrow">
+            <h2 class="heading-lg text-center mb-4">Services & Packages</h2>
+            <p class="text-body text-center max-w-2xl mx-auto mb-16">
+              Simple packages designed to help you launch or refresh your brand quickly and professionally.
+            </p>
+
+            <div class="services-grid">
+              <div class="service-card">
+                <h3 class="heading-md mb-2">Branding Starter</h3>
+                <p class="service-note">Perfect for businesses that need a clean, consistent identity.</p>
+                <ul class="service-list">
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Logo and basic variations</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Color palette & typography</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Mini brand guide (4–6 pages)</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Essential assets for social media</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="service-card">
+                <h3 class="heading-md mb-2">Web Express</h3>
+                <p class="service-note">Ideal for businesses that need a modern website—fast.</p>
+                <ul class="service-list">
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>3–5 page Webflow website</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Fully responsive design</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Contact form + basic integrations</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>SEO setup and editing guide</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="service-card service-card-highlight">
+                <div class="service-badge">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <span>Most Popular</span>
+                </div>
+                <h3 class="heading-md mb-2">Brand + Web Starter Pack</h3>
+                <p class="service-note service-note-highlight">Our most complete and popular package.</p>
+                <ul class="service-list">
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Includes Branding Starter + Web Express</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Social Media Starter Kit (8–10 posts)</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Smooth end-to-end creative process</span>
+                  </li>
+                  <li class="service-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>Delivery in just a few weeks</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Use Cases -->
+        <section class="section-padding">
+          <div class="container-narrow">
+            <h2 class="heading-lg mb-4">Who we work with</h2>
+            <p class="text-body max-w-2xl mb-16">
+              We adapt our services to fit businesses of any size—from local shops to boutique hotels and growing brands.
+            </p>
+
+            <div class="usecases-grid">
+              <div class="usecase-item">
+                <span class="usecase-number">01</span>
+                <div class="usecase-content">
+                  <h3 class="heading-md mb-2">Hotels & Lodges</h3>
+                  <p class="text-body">We redesign outdated websites, modernize your brand identity, and create visuals that match the real guest experience.</p>
+                </div>
+              </div>
+              <div class="usecase-item">
+                <span class="usecase-number">02</span>
+                <div class="usecase-content">
+                  <h3 class="heading-md mb-2">Restaurants & Cafés</h3>
+                  <p class="text-body">Menus, modern branding, and simple websites that make people want to book a table.</p>
+                </div>
+              </div>
+              <div class="usecase-item">
+                <span class="usecase-number">03</span>
+                <div class="usecase-content">
+                  <h3 class="heading-md mb-2">Shops & Independent Brands</h3>
+                  <p class="text-body">Identity and landing pages that build trust and make your products look intentional.</p>
+                </div>
+              </div>
+              <div class="usecase-item">
+                <span class="usecase-number">04</span>
+                <div class="usecase-content">
+                  <h3 class="heading-md mb-2">Professionals & Studios</h3>
+                  <p class="text-body">Minimal, clear websites that communicate who you are and what you do—without distractions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Process -->
+        <section id="process" class="section-padding bg-card">
+          <div class="container-narrow">
+            <h2 class="heading-lg text-center mb-4">How we work</h2>
+            <p class="text-body text-center max-w-2xl mx-auto mb-16">
+              A streamlined process designed to get you from concept to launch efficiently.
+            </p>
+
+            <div class="process-container">
+              <div class="process-line"></div>
+              
+              <div class="process-steps">
+                <div class="process-step">
+                  <div class="process-icon-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <span class="process-step-label">Step 01</span>
+                  <h3 class="process-step-title">Discovery Call</h3>
+                  <p class="process-step-description">We learn about your business, goals, and vision.</p>
+                </div>
+                <div class="process-step">
+                  <div class="process-icon-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                  </div>
+                  <span class="process-step-label">Step 02</span>
+                  <h3 class="process-step-title">Brief & Proposal</h3>
+                  <p class="process-step-description">We define the scope, timeline, and investment.</p>
+                </div>
+                <div class="process-step">
+                  <div class="process-icon-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.42-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.42-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.42-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v1a2 2 0 0 0 2 2h.5a2 2 0 0 0 2-2v-1a2 2 0 0 1 2-2h1a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                      <path d="M18 13.22V22a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-5.22"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <span class="process-step-label">Step 03</span>
+                  <h3 class="process-step-title">Design Phase</h3>
+                  <p class="process-step-description">Branding, website, and key visual assets.</p>
+                </div>
+                <div class="process-step">
+                  <div class="process-icon-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                  </div>
+                  <span class="process-step-label">Step 04</span>
+                  <h3 class="process-step-title">Review & Adjust</h3>
+                  <p class="process-step-description">One or two clear feedback rounds.</p>
+                </div>
+                <div class="process-step">
+                  <div class="process-icon-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                      <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                      <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                      <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                    </svg>
+                  </div>
+                  <span class="process-step-label">Step 05</span>
+                  <h3 class="process-step-title">Delivery & Support</h3>
+                  <p class="process-step-description">We publish your site and hand you all files.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section id="contact" class="section-padding">
+          <div class="container-narrow">
+            <div class="cta-box">
+              <h2 class="heading-lg text-background mb-4">
+                Ready to take your brand to the next level?
+              </h2>
+              <p class="cta-description">
+                Let's design the next version of your visual identity and online presence.
+              </p>
+              <div class="cta-buttons">
+                <a href="mailto:hello@studio.com" class="btn-primary">
+                  Book a Call
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.5rem;">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="mailto:hello@studio.com" class="btn-secondary-cta">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container-narrow footer-container">
+          <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+              <a href="#" class="logo-link">
+                Studio<span class="text-primary">.</span>
+              </a>
+              <p class="footer-description">
+                We design visual identities, Webflow websites, and digital content for businesses that want to stand out.
+              </p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="footer-nav">
+              <h4 class="footer-heading">Navigation</h4>
+              <nav class="footer-nav-links">
+                <a href="#" class="footer-link">Home</a>
+                <a href="#services" class="footer-link">Services</a>
+                <a href="#portfolio" class="footer-link">Portfolio</a>
+                <a href="#contact" class="footer-link">Contact</a>
+              </nav>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-contact">
+              <h4 class="footer-heading">Get in Touch</h4>
+              <a href="mailto:hello@studio.com" class="footer-email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                hello@studio.com
+              </a>
+              <div class="footer-social">
+                <a href="#" aria-label="Instagram" class="footer-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Twitter" class="footer-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                  </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" class="footer-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="footer-copyright">
+              © <span id="currentYear"></span> Studio. All rights reserved.
+            </p>
+            <p class="footer-collab">
+              Interested in collaborating? 
+              <a href="mailto:hello@studio.com" class="footer-collab-link">Send us your portfolio</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
